@@ -121,3 +121,8 @@ def register(request):
                 'active': 'btn btn-success peach-gradient text-white',
                 'form': registerForm(),
     })
+
+
+def health_status(request):
+
+    return render(request,"pages/health_status.html")
